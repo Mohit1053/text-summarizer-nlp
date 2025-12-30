@@ -1,0 +1,34 @@
+# ===========================================
+# Product Recommendation - .gitignore
+# ===========================================
+
+# Environment
+.env
+.env.local
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model cache (large)
+.cache/
+models/
+*.bin
+*.pt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output
+*.txt
+!requirements.txt
