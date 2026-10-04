@@ -32,3 +32,5 @@ Thumbs.db
 # Output
 *.txt
 !requirements.txt
+*.pyc
+.mcp.json
